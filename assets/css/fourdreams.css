@@ -1,1 +1,178 @@
+body
+{
+    position: relative;
+}
 
+nav
+{
+    background-color: gray;
+}
+
+.navbar-nav > li.nav-item > a.nav-link
+{
+    color: #ffffff !important;
+    padding: 0 1.5em;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.active::after
+{
+    top: 40px;
+    position: absolute;
+    content: "____";
+    display: block;
+    color: #F05F40;
+}
+
+@media (min-width: 992px) 
+{
+    nav 
+    {
+        border-color: transparent;
+        background-color: transparent;
+    }
+}
+
+.navbar-shrink
+{
+    background-color: gray;
+}
+.espacio
+{
+    padding: 5rem 0;
+}
+
+section 
+{
+    padding: 8rem 0;
+}
+
+hr
+{
+    max-width: 70px;
+    border-width: 2px !important;
+    border-color: gray !important;
+    margin-left: 0;    
+}
+
+#inicio
+{
+    background-image: url("../images/slider-personas-trabajando.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+#inicio #p1
+{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#inicio #p2
+{
+    font-size: 45px;
+}
+
+#inicio #p3
+{
+    font-size: 25px;
+    color: #F05F40;
+    font-weight: lighter;
+}
+
+#somos
+{
+    background-color: #fb9620;
+    color: white;
+}
+
+#somos h2, #somos h3
+{
+    color: #444444;
+}
+
+#somos #somosTexto
+{
+    font-size: 2rem;
+}
+
+#soluciones
+{
+    padding: 0;
+    background-image: url("../images/background-dedo-codigo.jpg");
+    background-position: center center;
+    background-size: cover;
+    font-weight: lighter;
+}
+
+.col-lg-10
+{
+    font-size: 1.5em;
+}
+
+#textoSoluciones
+{
+    background:rgba(0,0,0,0.6);
+    min-height:500px;
+    color: white;    
+    padding-left: 12rem;
+    padding-top: 12rem;
+    padding-right: 5rem;
+}
+
+#soluciones #imagenSoluciones
+{
+    padding: 0;    
+}
+
+#servicios
+{
+    padding: 0;
+    background-color: #c1262c;
+    color: white;
+    
+}
+
+#servicios #imagenServicios
+{
+    background-image: url("../images/background-persona-riendo.png");
+    height: -webkit-fill-available;
+}
+
+#textoServicios
+{
+    padding-top: 7rem;
+    padding-left: 3rem;
+}
+
+#contacto
+{
+    color: #727176;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contacto h2
+{
+    color: #66656a;    
+}
+
+#contacto .boton
+{
+    background-color: #c1262c;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 4rem;    
+}
